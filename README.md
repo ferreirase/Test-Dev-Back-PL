@@ -1,6 +1,6 @@
 #### Subindo o servidor
   1. Clone/Baixe este repositório na sua máquina;
-  2. Abra o terminal na raiz da pasta do projeto e rode o comando *``` docker-compose up --build ```*  para subir os containers do projeto;
+  2. Abra o terminal na raiz da pasta do projeto e rode o comando *``` docker-compose up --build postgresdb```*  para subir o contâiner do Banco de Dados e depois de aceitar conexões rode *``` docker-compose up --build app```*  para subir o contâiner da aplicação;
   3. Pronto, seu servidor backend e banco de dados estão no ar e prontos pra serem acessados no endereço "http://localhost:3333" ou na porta setada no arquivo *``` .env ```*.
 
 ## Rotas e Parâmetros
